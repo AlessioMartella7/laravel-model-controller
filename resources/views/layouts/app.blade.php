@@ -11,7 +11,7 @@
     @yield('additional-cdn')
 </head>
 
-<body>
+<body class="bg-dark">
 
     {{-- includo header --}}
     @include('partials.header')
