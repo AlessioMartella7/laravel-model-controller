@@ -11,7 +11,7 @@ class MovieController extends Controller
 
         // recupero i dati dal DB
         $movies = Movie::all();
-        return view('movies.index');
+        return view('movies.index',compact('movies') );
 
     }
 }
